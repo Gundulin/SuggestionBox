@@ -43,3 +43,5 @@ Thumbs.db
 
 # Environmental variables
 /environments
+environment.development.ts
+environment.ts
