@@ -45,3 +45,6 @@ Thumbs.db
 /environments
 environment.development.ts
 environment.ts
+
+# Them Notes
+notes.md
