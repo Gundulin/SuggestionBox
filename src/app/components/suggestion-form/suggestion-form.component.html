@@ -1,4 +1,8 @@
 <div class="container">
     <label for="steamId">Steam Id</label>
     <input id="steamId" [(ngModel)]="steamId" type="text"/>
+    <button (click)="onSubmit()">Get Suggestion</button>
+    <div *ngIf="hasGameSuggestion" id="suggestionDisplay">
+        {{ suggestion }}
+    </div>
 </div>
